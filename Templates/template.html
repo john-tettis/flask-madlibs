@@ -1,0 +1,22 @@
+{% extends 'base.html'%}
+{% block title%} Mad Libs!{% endblock%}
+
+{% block content%}
+<div class="container">
+    <form action="/story">
+    {% for prompt in prompts%}
+    <div class="row">
+        <div class ='col-25'>
+            <label for="{{prompt}}">{{prompt.capitalize()}}:<label>
+        </div>
+        <div class="col-75">
+            <input type="text" name="{{prompt}}">
+        </div>
+    </div>
+    {% endfor %}
+    <input type="text" style="display:none" name="t" value="{{t}}">
+    <button>Make a Story!</button>
+    
+    </form>
+</div>
+{% endblock %}

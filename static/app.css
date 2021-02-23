@@ -1,0 +1,70 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 20px 60px 20px;
+  width: 40%;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 5px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 5px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  resize: vertical;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  width: 75%;
+  float: right;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #256e28;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  background-color: rgba(10, 2, 2, 0.849);
+  height: 40px;
+  line-height: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  border-right: solid 1px #999;
+  padding: 5px;
+  margin-top: auto;
+}
+/*# sourceMappingURL=app.css.map */
